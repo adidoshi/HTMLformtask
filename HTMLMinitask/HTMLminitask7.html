@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        input[type=text] {
+            width: 100%;
+            /* padding: 12px 20px; */
+            /* margin: 8px 0; */
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        #fname {
+            position: relative;
+            bottom: 15px;
+            width: 45%;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+        }
+
+        #fname2 {
+            position: relative;
+            bottom: 15px;
+            width: 45%;
+            left: 30px;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+        }
+
+        #add1 {
+            position: relative;
+            bottom: 15px;
+            width: 100%;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+        }
+
+        #city1 {
+            position: relative;
+            bottom: 16px;
+            width: 30%;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+        }
+
+        #top1 {
+            position: relative;
+            bottom: 14px;
+        }
+
+        #top3 {
+            position: relative;
+            left: 118px;
+            bottom: 14px;
+        }
+
+        .top2 {
+            position: relative;
+            bottom: 14px;
+        }
+
+        .top3 {
+            position: relative;
+            bottom: 14px;
+        }
+
+        #final1 {
+            position: relative;
+            bottom: 16px;
+            width: 30%;
+            left: 13px;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+        }
+
+        #final2 {
+            position: relative;
+            bottom: 16px;
+            width: 30%;
+            left: 24px;
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+            font-weight: bold;
+
+        }
+
+        .sec1 {
+            position: relative;
+            bottom: 14px;
+            left: 210px;
+        }
+
+        .sec2 {
+            position: relative;
+            bottom: 14px;
+            left: 60px;
+        }
+
+        .small {
+            font-size: smaller;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <!-- Q7.} Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+    <div
+        style=" width:350px; height:230px; margin:200px auto; padding:20px; border: 2px solid black; background-color: white">
+        <h3 style="background-color: red; color:white; margin-top: -14px;">Yes! I want to subscribe to
+            <span><em>Mag-O-Zine</em></span></h3>
+        <div>
+            <input type="text" id="fname" name="fname" value="Aditya">
+            <input type="text" id="fname2" name="fname" value="Doshi">
+        </div>
+        <div>
+            <label for="fname" id="top1">First Name</label>
+            <label for="fname2" id="top3">Last Name</label>
+        </div>
+        <div>
+            <input type="text" id="add1" name="lname" value="Gachibowli, Hyderabad">
+        </div>
+        <div>
+            <label for="add1" class="top2">Address</label>
+        </div>
+        <div>
+            <input type="text" id="city1" name="lname" value="Hyderabad">
+            <input type="text" id="final1" name="lname" value="telangana">
+            <input type="text" id="final2" name="lname" value="0002">
+        </div>
+        <div>
+            <label for="city1" class="top3">City</label>
+            <label for="final1" class="sec1">State</label>
+            <label for="final2" class="sec2">Zip</label>
+        </div>
+
+
+
+        <div style="font-family:Arial, Helvetica, sans-serif; font-size:smaller;">
+            <b>Subscribe for:</b><input type="radio" name="sub1"><b>1 year ($19.95)</b> <input type="radio"
+                name="sub1"><b>1 year ($35.00)</b>
+        </div>
+        <div>
+            <span><b class="small">Send me more information about:</b></span>
+            <div><input type="checkbox" name="comp"> <b class="small">Computer-Zine</b></div>
+            <div><input type="checkbox" name="fish"> <b class="small">Fishing-Zine</b></div>
+            <div><input type="checkbox" name="cat"> <b class="small">Cat-O-Zine</b>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

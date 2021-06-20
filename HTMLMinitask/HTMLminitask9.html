@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>Write HTML input tags snippet to show default values for all Form elements.</h4>
+    <form action="">
+        <div class="Fullform"></div>
+        <div class="firstname">
+            <label for="fname" name="fname">First Name:</label>
+            <input type="text" id="fname" required value="Aditya"><br><br>
+        </div>
+        <div class="secname">
+            <label for="sname" name="sname">Last Name:</label>
+            <input type="text" id="sname" required value="Doshi"><br><br>
+        </div>
+        <div class="email">
+            <label for="email" name="email">Email:</label>
+            <input type="email" id="email" required value="adi0000@gmail.com"><br><br>
+        </div>
+        <div class="pass">
+            <label for="pass" name="pass">Password:</label>
+            <input type="password" id="pass" required value="123456"><br><br>
+        </div>
+        <div class="color">
+            <label for="head">Color:</label>
+            <input type="color" id="head" name="head"><br><br>
+        </div>
+        <div class="datee">
+            <label for="date">Date without Condition😊:</label>
+            <input type="date" id="date" value="2019-01-08"><br><br>
+        </div>
+        <div class="datecondition">
+            <label for="datecond">Date with Condition🙄:</label>
+            <input type="date" id="datecond" value="2017-10-25" min="2015-05-18" max="2030-04-10"><br><br>
+        </div>
+        <div class="datetime">
+            <label for="datetime">Date with Time⌚:</label>
+            <input type="datetime-local" id="datetime" value="2017-06-01T08:30"><br><br>
+        </div>
+        <div>
+            Check this
+            <select name="drop" id="down">
+                <option value="sel" >Select 1</option>
+                <option value="sel">Select 2</option>
+                <option value="sel" selected>Select 3</option>
+                <option value="sel">Select 4</option>
+            </select>
+        </div>
+        <div>
+            <p>Custom range slider:</p>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <div class="check">
+            <label>Intersted in:</label><br>
+            <div>
+                <input type="checkbox" id="check1" checked>
+                <label for="check1">Action</label>
+            </div>
+            <div>
+                <input type="checkbox" id="check2">
+                <label for="check2">Thriller</label><br><br>
+            </div>
+        </div>
+        <div class="radios">
+            <label>Gender:</label>
+            <input type="radio" id="male" value="Male" name="gender" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="Female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" value="Others" name="gender">
+            <label for="others">Others</label><br><br>
+        </div>
+        <div class="submit">
+            <input type="Submit" value="Fill Form">
+        </div>
+    </form>
+</body>
+
+</html>

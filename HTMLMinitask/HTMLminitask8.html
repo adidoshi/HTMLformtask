@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          margin: 180px auto;
+        }
+        th, td {
+          padding: 15px;   
+        }
+        .midd{
+            text-align: center;
+        }
+        </style>
+    
+</head>
+<body>
+      <table style="width:50%; background-color: white;">
+        <caption style="color:black; background-color: white;">Health chart</caption>
+        <tr>
+          <th rowspan="2" class="midd">State of Health</th>
+          <th colspan="2" class="midd">Fasting Value</th>
+          <th class="midd">After Eating</th>
+        </tr>
+        <tr>
+          <td class="midd">Maximum</td>
+          <td class="midd">Minimum</td>
+          <td class="midd">2hrs after eating</td>
+        </tr>
+        <tr>
+            <td class="midd">Healthy</td>
+            <td class="midd">70</td>
+            <td class="midd">100</td>
+            <td class="midd">Less than 140</td>
+        </tr>
+        <tr>
+            <td class="midd">Pre-Diabetes</td>
+            <td class="midd">101</td>
+            <td class="midd">126</td>
+            <td class="midd">140 to 200</td>
+        </tr>
+        <tr>
+            <td class="midd">Diabetes</td>
+            <td class="midd">More than 126</td>
+            <td class="midd">N/A</td>
+            <td class="midd">More than 200</td>
+        </tr>
+        
+      </table>
+</body>
+</html>
